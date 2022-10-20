@@ -622,7 +622,7 @@ img{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding-left: 16px;
-    color: var(--primary-color-text);
+    color: var(--whrite);
 }
 
 
@@ -865,8 +865,16 @@ img{
     right: 8px;
     background-color:var(--whrite);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    
     cursor: pointer;
+}
+
+.close-icon{
+    transition: fill var(--one-time) var(--two-time) ;
+}
+
+.close-icon:hover,
+.close-icon:focus{
+    fill: var(--button-color);
 }
 
 .modal-text {
@@ -904,6 +912,7 @@ img{
     cursor: pointer;
     transition: border-color var(--one-time) var(--two-time);
     
+    
 }
 
 .input-box {
@@ -930,7 +939,7 @@ img{
     font-size: 12px;
     line-height: 1.166;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5); 
+    color: black; 
     outline: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; 
