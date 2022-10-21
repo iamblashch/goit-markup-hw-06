@@ -981,7 +981,7 @@ img{
 .modal-checkbox:checked + .checkbox-icon {    
     border: transparent;
     background-color: var(--button-color);
-    background-image: url(/images/Vector.svg);
+    background-image: url(../images/Vector.svg);
     background-repeat: no-repeat; 
     background-position: center;
     background-size: 11px 8px;   
