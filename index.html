@@ -9,29 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!---HEADER-->
     <header class="header">
        <div class="container">
-            <nav class="header-nav">
+            <nav class="navigation">
                 <a href="./index.html" class="logo" 
-                >Web<span class="logo-studio">Studio</span> 
+                >Web<span class="logo__studio">Studio</span> 
                 </a>
-                <ul class="site-nav">
-                    <li><a href="./index.html" class="nav-link active">Студія</a></li>
-                    <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-                    <li><a href="" class="nav-link">Контакти</a></li>
+                <ul class="nav">
+                    <li><a href="./index.html" class="nav__link active">Студія</a></li>
+                    <li><a href="./portfolio.html" class="nav__link">Портфоліо</a></li>
+                    <li><a href="" class="nav__link">Контакти</a></li>
                 </ul>     
-                <ul class="nav-info">
-                    <li class="nav-info-icon"><a href="mailto:info@devstudio.com" class="link massage">
-                        <svg class="mail-svg" width="16px" height="16px">
+                <ul class="info">
+                    <li class="info__icon"><a href="mailto:info@devstudio.com" class="info__link">
+                        <svg class="svg" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-envelope">
                         </use></svg>info@devstudio.com</a>
                     </li>
-                    <li class="nav-info-icon"><a href="tel:+380961111111" class="link massage">
-                        <svg class="phone-svg" width="12px" height="16px">
+                    <li class="info__icon"><a href="tel:+380961111111" class="info__link">
+                        <svg class="svg" width="12px" height="16px">
                         <use href="./images/icons.svg#icon-smartphone">
                         </use></svg>+380961111111</a>
                     </li>
@@ -43,51 +43,51 @@
             <!--HERO-->
             <section class="hero section">
                 <div class="container">
-                    <h1 class="first-title">Ефективні рішення для вашого бізнесу</h1>
+                    <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                     <button type="button" class="button" data-modal-open>Замовити послугу</button>
                 </div>
             </section>
          <!-- OSOBLIVOSTI -->
-        <section class="futures section">
+        <section class="section">
             <div class="container">
                 <h2 class="ninja">Особливості</h2>
-                <ul class="list-futures">
-                  <li class="item-list">                     
-                      <h3 class="futures-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                      <p class="futures-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>    
+                <ul class="futures">
+                  <li class="futures-item">                     
+                      <h3 class="futures-item__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                      <p class="futures-item__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>    
                   </li>
-                  <li class="item-list">                        
-                      <h3 class="futures-title">ПУНКТУАЛЬНІСТЬ</h3>
-                      <p class="futures-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>    
+                  <li class="futures-item">                        
+                      <h3 class="futures-item__title">ПУНКТУАЛЬНІСТЬ</h3>
+                      <p class="futures-item__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>    
                   </li>
-                  <li class="item-list">                        
-                      <h3 class="futures-title">ПЛАНУВАННЯ</h3>
-                      <p class="futures-text">Так само консультація з широким активом значною мірою зумовлює..</p>    
+                  <li class="futures-item">                        
+                      <h3 class="futures-item__title">ПЛАНУВАННЯ</h3>
+                      <p class="futures-item__text">Так само консультація з широким активом значною мірою зумовлює..</p>    
                   </li>
-                  <li class="item-list">                       
-                      <h3 class="futures-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                      <p class="futures-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань..</p>    
+                  <li class="futures-item">                       
+                      <h3 class="futures-item__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                      <p class="futures-item__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань..</p>    
                   </li>
                 </ul>     
         </section>
         <!---WORK-->
         <section class="work section">
             <div class="container">
-                <h2 class="work-title">Чим ми займаємося</h2>
-                <ul class="work-list">
-                    <li class="work-img"><img src="./images/codding.jpg" width="370" alt="codding">
-                      <div class="work-section-info">
-                        <h3 class="work-section-title">Десктопні додатки</h3>
+                <h2 class="title-work">Чим ми займаємося</h2>
+                <ul class="work">
+                    <li class="work__img"><img src="./images/codding.jpg" width="370" alt="codding">
+                      <div class="work__info">
+                        <h3 class="work__title">Десктопні додатки</h3>
                       </div>
                     </li>
-                    <li class="work-img"><img src="./images/tel-laptop.jpg" width="370" alt="tel-laptop">
-                      <div class="work-section-info">
-                        <h3 class="work-section-title">Мобільні додатки</h3>
+                    <li class="work__img"><img src="./images/tel-laptop.jpg" width="370" alt="tel-laptop">
+                      <div class="work__info">
+                        <h3 class="work__title">Мобільні додатки</h3>
                       </div>
                     </li>
-                    <li class="work-img"><img src="./images/collor-gama.jpg" width="370" alt="collor-gama">
-                      <div class="work-section-info">
-                        <h3 class="work-section-title">Дизайнерські рішення</h3>
+                    <li class="work__img"><img src="./images/collor-gama.jpg" width="370" alt="collor-gama">
+                      <div class="work__info">
+                        <h3 class="work__title">Дизайнерські рішення</h3>
                       </div>
                     </li>
                  
