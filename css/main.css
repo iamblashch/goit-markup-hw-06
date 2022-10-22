@@ -411,6 +411,15 @@ img {
   cursor: pointer;
 }
 
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
 .link-clients {
   border-radius: 4px;
   border: 1px gray solid;
@@ -477,7 +486,7 @@ img {
   color: var(--button-color);
 }
 
-.info {
+.info-footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -486,7 +495,7 @@ img {
   font-style: normal;
   transition: color var(--one-time) var(--two-time);
 }
-.info:hover, .info:focus {
+.info-footer:hover, .info-footer:focus {
   color: var(--button-color);
 }
 
